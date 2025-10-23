@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main", "feature-infra"]
   pull_request:
-    branches: ["main", "feature-infra"]
+    branches: ["main"]
 
 jobs:
   terraform:
