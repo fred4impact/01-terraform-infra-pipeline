@@ -2,10 +2,9 @@ name: AWS Infrastructure Deployment CICD
 
 on:
   push:
-    branches: [mainfeature-infra]
+    branches: ["main", "feature-infra"]
   pull_request:
-    branches:
-      - main
+    branches: ["main", "feature-infra"]
 
 jobs:
   terraform:
