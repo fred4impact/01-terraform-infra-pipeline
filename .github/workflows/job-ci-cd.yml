@@ -68,4 +68,4 @@ jobs:
 
       - name: "Terraform Apply"
         if: github.ref == 'refs/heads/main'
-        run: terraform apply "tfplan" -auto-approve
+        run: terraform apply  -auto-approve tfplan
