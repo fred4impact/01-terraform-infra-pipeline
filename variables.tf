@@ -1,5 +1,5 @@
-variable "bucket_name" {
-  type        = string
-  description = "The name of the bucket to create"
-  default     = "gitaction-bilarn-bucket-001"
-}
+# variable "bucket_name" {
+#   type        = string
+#   description = "The name of the bucket to create"
+#   default     = "gitaction-bilarn-bucket-001"
+# }

@@ -1,7 +1,6 @@
 # S3 Bucket
 module "s3" {
-  source      = "./modules/s3"
-  bucket_name = "gitaction-bilarn-bucket-001"
+  source = "./modules/s3"
 }
 
 
