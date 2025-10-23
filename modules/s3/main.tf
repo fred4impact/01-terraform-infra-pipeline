@@ -1,6 +1,6 @@
 #tfsec:ignore:aws-s3-enable-bucket-logging
 resource "aws_s3_bucket" "example" {
-  bucket = var.bucket_name
+  bucket = "gitaction-bilarn-bucket-001"
 }
 
 resource "aws_s3_bucket_ownership_controls" "example" {
