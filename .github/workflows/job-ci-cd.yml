@@ -64,7 +64,7 @@ jobs:
         run: tfsec . --no-color
 
       - name: "Terraform Plan"
-        run: terraform plan -out=tfplan
+        run: terraform plan "tfplan"
 
       - name: "Terraform Apply"
         if: github.ref == 'refs/heads/main'
